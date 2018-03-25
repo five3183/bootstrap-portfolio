@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contact Page</title>
+    <!-- Add Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row navHead">
+            <nav class="navbar navbar-default">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <a class="navbar-brand yourName"><strong>Your Name</strong></a>
+                </div>
+                <div class="col-sm-6 col-md-6"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="col-xs-4 col-sm-3" href="index.html"> About </a></li>
+                        <li><a class="col-xs-4 col-sm-3" href="portfolio.html"> Portfolio </a></li>
+                        <li><a class="col-xs-4 col-sm-3" href="contact.html"> Contact </a><li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-8 contactBox">
+                <div class="page-header aboutMe">
+                    <h1><strong>Contact</strong></h1>
+                </div>
+                <form>
+                    <div class="form-group">
+						<label for="exampleInputName2">Name</label>
+						<input type="text" class="form-control" id="exampleInputName2" placeholder="John Doe">
+					</div>
+                    <div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
+					</div>
+					<div class="form-group">
+						<label>Message</label>
+						<textarea class="form-control" rows="10"></textarea>
+					</div>
+                    <button type="submit" class="btn sendIt">Submit</button>
+				</form>
+			<br>
+		</div>
+        
+        <!-- Panel bar -->
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading connectMe">
+                    <h3 class="panel-title"><strong>Connect with me</strong></h3>
+                </div>
+                <div class="panel-body">
+                    <ul>
+                        <a href="https://github.com/" target="_blank">
+                            <img src="assets/images/github.png" style="width:40px;height:40px;">
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <img src="assets/images/linkedin.png" style="width:40px;height:40px;">
+                        </a>
+                        
+                        <a href="https://stackoverflow.com/" target="_blank">
+                            <img src="assets/images/stackoverflow.png" style="width:40px;height:40px;">
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="footer" class="container-fluid">
+    <div class ="row">
+        <div class="col-md-12 copyright">
+            <span>&#169; COPYRIGHT 2018 Your Name</span>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

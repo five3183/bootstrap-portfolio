@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("images/concrete.jpg");
+    background-size: cover;
+
+}
+
+.yourName {
+    background-color: teal;
+    color: white !important;
+}
+
+.aboutMe {
+    background-color: white;
+    color: teal;
+    border-bottom: solid;
+    border-bottom-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.connectMe {
+    background-color: white !important;
+    color: teal !important;
+}
+
+.contactBox {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+p {
+    width: 100%;
+}
+
+p:first-child {
+    margin-top: 20px;
+}
+
+
+
+.sendIt {
+    background-color: teal !important;
+    color: white !important;
+}
+.copyright {
+    text-align: center;
+    height: 5%;
+    background-color: lightgrey;
+    font-size: 10px;
+    padding: 50px;
+    border-top: solid teal 10px;
+    margin-top: 10px;
+    width: 100% !important;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.tags {
+    text-align: center;
+    position: relative;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    padding: 15px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 728px) {
+    .connectMe {
+        margin: 0;
+    }
+
+    p {
+        clear: both;
+    }
+
+    #catPic {
+        float: left;
+    }
+    .connectMe {
+        margin: 0;
+    }
+    .panelBox {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 640px) {
+   
+    .yourName {
+        width: 100%;
+        text-align: center;
+    }
+    .connectMe {
+        margin: 0;
+    }
+    .panelBox {
+        padding: 0;
+    }
+    ul {
+        align-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
